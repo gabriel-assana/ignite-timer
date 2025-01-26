@@ -103,7 +103,7 @@ const STATUS_COLOR = {
   'warning-light': 'warning-light',
   'ignite-mid': 'ignite-mid',
   'ec-light': 'ec-light',
-} as const // para TS entender que não poderá ser qlq string
+} as const // para TS entender que não poderá ser qualquer string
 
 interface StatusProps {
   statusColor: keyof typeof STATUS_COLOR
