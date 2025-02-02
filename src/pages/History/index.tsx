@@ -5,7 +5,6 @@ import { CyclesContext } from '../../contexts/CyclesContext'
 import { HistoryContainer, HistoryList, Status } from './styles'
 import { Trash } from 'phosphor-react'
 
-
 export function History() {
   const { cycles, deleteCycle } = useContext(CyclesContext)
 
