@@ -19,12 +19,9 @@
   - Uso do hook `useReducer` do React para centralizar as alterações em um estado complexo
   - Outros...
 
-## 📷 Layout
+## 🎨 Layout
 <p align="center">
-    <img alt="Capa do projeto" title="Capa do projeto" src="./.github/images/cover.png" />
-</p>
-<p align="center">
-  <img src=".github/gif.gif">
+  <img src=".github/images/gif.gif">
 </p>
 
 
@@ -55,13 +52,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <br/>
 
 
-## 🎨 Layout
-
-
-
-
-
-
 ## 🚀 Instalação e uso
 
 ```bash
@@ -69,7 +59,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 git clone https://github.com/gabriel-assana/ignite-timer.git
 
 # Acesse a pasta do projeto
-cd todo-list-ignite
+cd ignite-timer
 
 # Instale as dependências
 npm install
