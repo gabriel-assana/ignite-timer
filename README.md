@@ -4,46 +4,32 @@
 </h1>
 
 <p align="center">
- <a href="#-demonstration">Demonstration</a> |
- <a href="#-deploy">Deploy</a> |
- <a href="#-technologies">Technologies</a> |
- <a href="#-layout">Layout</a> |
- <a href="#-clipboard-pré-requisitos">Clipboard</a> |
- <a href="#-settings">Settings</a>
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
+ <a href="#-instalação-e-uso">Instalação</a> • 
 </p>
 
----
+## 💻 Sobre o projeto
 
-O Ignite Timer nada mais é que um projeto que permite ao usuário cronometrar as suas tarefas no dia a dia, além de le permite ver um histórico de todos as tarefas já realizadas.
-
-**Objetivos**: os principais objetivos desta aplicação foi treinar a atilização das seguintes ferramentas/tecnologias: 
+  Os principais objetivos desta aplicação foi treinar a atilização das seguintes ferramentas/tecnologias: 
   - Lidar com datas e horarios através da biblioteca `date-fns`
   - Utilização de formulários com `React Hook Form`
   - Aplicação de temas dark e light utilizando o `Styled Components`
   - Uso do hook `useReducer` do React para centralizar as alterações em um estado complexo
   - Outros...
 
-* Caso goste do projeto marque a estrelinha⭐ e compartilhe para me ajudar 👍, e me siga para ver outros projetos meus.
-
-## 📷 Demonstration
+## 📷 Layout
 <p align="center">
     <img alt="Capa do projeto" title="Capa do projeto" src="./.github/images/cover.png" />
 </p>
 <p align="center">
-    <img
-        alt="Gif de demonstração do projeto" 
-        title="Gif de demonstração do projeto" 
-        src="./.github/images/ignite_timer-demonstration.gif" 
-    />
+  <img src=".github/gif.gif">
 </p>
 
 
-## 💻 Deploy
 
-Clique no link a seguir para executar o projeto na sua máquina: <a target="_blank" href="https://ignite-timer-pearl.vercel.app/">Link</a>
-
-
-## 🚀 Technologies
+## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -71,48 +57,27 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🎨 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/nCeslCY32mG7newtwTpuks/Ignite-Timer-(Community)?node-id=11%3A599). É necessário ter conta no [Figma](https://www.figma.com/) para acessá-lo.
 
 
-## 📋 Clipboard (Pré-requisitos)
-
-Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
-
-* [Git](https://git-scm.com)
-* [NodeJS](https://nodejs.org/en/)
-* [Yarn](https://yarnpkg.com/) ou [NPM](https://www.npmjs.com/)
 
 
-## ⚙ Settings
 
-Segue os comandos para baixar e executar o projeto na sua máquina:
+## 🚀 Instalação e uso
 
-* `git clone` + `URL do Projeto`: clonar este repositório.
-* `cd Ignite-Timer`: acessa a pasta do projeto no terminal.
-* `yarn`: para baixar as dependências do projeto.
-* `yarn dev`: 
-    - Executa o projeto em modo/ambiente de desenvolvimento.
-    - Abra [http://localhost:3000](http://localhost:3000) para ver o projeto rodando no Navegador.
-    - A página será recarregada se você fizer edições no código, e se tiver algum erro será mostrado no console.
-* `yarn build`: 
-    - Compila a aplicação para a produção na pasta `build`.
+```bash
+# Clone o repositório
+git clone https://github.com/gabriel-assana/ignite-timer.git
+
+# Acesse a pasta do projeto
+cd todo-list-ignite
+
+# Instale as dependências
+npm install
+
+# Execute a aplicação
+npm run dev
+
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
+```
 
 
-## 📝 License
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## ✍ Author
-
-<img alt="PabloXT14" title="PabloXT14" src="https://github.com/PabloXT14.png" width="100">
-<p>
-    Made with 💜 by PabloXT14
-</p>
-<p align="left">
-    <a href="https://www.linkedin.com/in/pabloalan/" target="_blank">
-        <img align="center" src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Pablo Alan" />
-    </a>
-    <a href="mailto:pabloxt14@gmail.com" target="_blank">
-        <img align="center" src="https://img.shields.io/badge/Gmail-FF0000?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Pablo Alan" />
-    </a>
-</p>
